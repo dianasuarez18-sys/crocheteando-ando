@@ -1,0 +1,14 @@
+{
+  "name": "crocheteando-ando",
+  "version": "1.0.0",
+  "description": "Crocheteando Ando: clases del dominio y pruebas (Actividad 3, Ingeniería de Software, UPTC)",
+  "main": "crocheteando.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "demo": "node demo.js"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^30.5.2"
+  }
+}
