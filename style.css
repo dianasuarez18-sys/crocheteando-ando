@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff1e0;
+  color: #2d2623;
+}
+
+header {
+  background-color: #c85a40;
+  color: white;
+  padding: 16px 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 22px;
+}
+
+main {
+  padding: 20px;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.boton {
+  display: inline-block;
+  background-color: #c85a40;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.tarjeta {
+  background-color: white;
+  border: 1px solid #b8aa9c;
+  border-radius: 8px;
+  padding: 12px 16px;
+  margin-bottom: 12px;
+}
+
+.tarjeta h3 {
+  margin: 0 0 6px 0;
+}
+
+.tarjeta p {
+  margin: 4px 0;
+}
+
+.precio {
+  color: #c85a40;
+  font-weight: bold;
+}
+.filtros {
+  margin-bottom: 16px;
+}
+
+.filtros button {
+  background-color: white;
+  color: #2a9d8f;
+  border: 1px solid #2a9d8f;
+  border-radius: 16px;
+  padding: 6px 14px;
+  margin-right: 6px;
+  cursor: pointer;
+}
+
+.filtros button.activo {
+  background-color: #2a9d8f;
+  color: white;
+}
